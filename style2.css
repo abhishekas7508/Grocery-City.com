@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/loginbg.jpg);
+}
+
+#errorElement{
+    color:red;
+    margin:auto;
+}
+
+.login-box{
+    height:400px;
+    width:300px;
+    background-color: rgb(31, 32, 44);
+    padding:2rem;
+    margin: auto;
+    margin-top:10%;
+    align-items: center;
+    border-radius: 10px;
+}
+.login-box .form{
+    padding-left:20%;
+}
+.login-box .form h1{
+    margin-left:21%;
+}
+.login-box .form input{
+    width:70%;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.login-box .form .login-btn{
+    width:40%;
+    margin-left:17%;
+    border:none;
+}
+.login-box .form .login-btn:hover{
+    background-color: rgb(255, 136, 0);
+    border: none;
+}
+.login-box h1{
+    color:white;
+}
+.login-box p{
+    color:white;
+    margin-left: 17%;
+}
+.login-box #signup{
+    background-color:rgb(31, 32, 44);
+    color:white;
+    border: none;
+    font-size: medium;
+    margin-left:41%;
+}
+.login-box #signup:hover{
+    color:rgb(255, 136, 0);
+
+    border:none;
+} 
+#form{
+    left:50px;
+}
+#sign-up{
+    left:450px;
+}
